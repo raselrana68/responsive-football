@@ -35,7 +35,82 @@ body{
     font-size: 16px;
     color: #FFFFFF;  
 }
+.watch-live-btn:hover{
+    background-color: #e74f87;
+}
 .header-img img{
     width: 556px;
     margin-top: 153px;
+}
+
+/* Main Section Styles */
+/* Players */
+.container{
+    background-color: rgb(240, 239, 239);
+    padding: 60px 210px 0px 180px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 36px;
+}
+.player{
+    width: 330px;
+    background-color: white;
+    border: 2px solid white;
+}
+.player img{
+    width:300px;
+    height: 256px;
+}
+
+.player img, .player-name, p{
+    margin: 15px 15px;
+}
+
+.player-name{
+    font-size: 28px;
+    color: #18191F;
+}
+
+.player p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+/* Hightlights Section Styles*/
+.highlights{
+    display: flex;
+    margin-top: 165px;
+}
+.highlight-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.highlight-info, .hl-image{
+    width: 50%;
+}
+
+.highlight-info h1{
+    
+}
+.highlight-info p{
+    margin-left: 0px;
+}
+.watch-live-btn2{
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    border: 1px solid #E02C6D;  
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+.watch-live-btn2:hover{
+    background-color: #e74f87;
+}
+.hl-image img{
+    width: 567px;
 }
