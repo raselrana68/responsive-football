@@ -116,23 +116,22 @@ body{
 }
 
 /* footer section styles */
-footer{
-}
 .footer-info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;
+   display: grid;
+   grid-template-rows: repeat(1,1fr);
+   justify-content: center;
+   justify-items: center;
 }
 .football-logo img{
     width: 227px;
 }
 .fontawesome-icon{
+    margin-top: 20px;
     width: 40px;
     color: rgb(97, 94, 94);
 }
 .copyright-text{
+    margin-top: 20px;
     font-size: 18px;
     color:black;
 }
