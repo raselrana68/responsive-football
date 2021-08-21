@@ -1,0 +1,41 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* Common Utilities and styles */
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header section Styles */
+.header-container{
+    background-color: #2D25A0;
+    height: 677px;
+}
+.header-content{
+    display: flex;
+}
+.header-title, .header-img{
+    width: 50%;
+}
+.title-txt{
+    width: 485px;
+    height: 230px;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-top:207px;
+    margin-left: 156px;
+    margin-bottom: 0px;
+}
+.watch-live-btn{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: 1px solid #E02C6D; 
+    margin-top: 40px;
+    margin-left: 156px;  
+    font-size: 16px;
+    color: #FFFFFF;  
+}
+.header-img img{
+    width: 556px;
+    margin-top: 153px;
+}
