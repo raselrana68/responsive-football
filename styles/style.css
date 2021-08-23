@@ -79,6 +79,37 @@ body{
     color: #6C6C6C;
 }
 
+/* Schedules Section and table Styles */
+.Schedules{
+    margin-top: 50px;
+}
+#upcoming-schedule{
+    color: rgb(7, 6, 70);
+}
+table {
+    border-collapse: collapse;
+    width: 95%;
+  }
+  td, th {
+    border: 1px solid #837c7c;
+    text-align: center;
+    padding: 8px;
+  }
+  th{
+      font-size: 20px;
+      color: rgb(33, 82, 0);
+  }
+  td{
+      color: rgb(9, 9, 114);
+  }
+  tr:nth-child(even) {
+    background-color: #d4e8ee;
+  }
+  #flag-image{
+      width: 25px;
+      border: 1px solid black;
+  }
+
 /* Hightlights Section Styles*/
 /* .highlights{
     display: flex;
@@ -201,6 +232,9 @@ body{
     .hl-image img{
         width: 320px;
         margin:20px 16px 20px 16px;
+    }
+    .Schedules{
+       width: 90%;
     }
 }
 
